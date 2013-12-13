@@ -1,0 +1,139 @@
+﻿Build started 11/1/2013 1:33:29 PM.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\thermo\thermo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\cmwc.h(32): warning C4244: '=' : conversion from 'uint64_t' to 'uint32_t', possible loss of data
+     1>main.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\pfilter.h(86): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\pfilter.h(79) : while compiling class template member function 'Point<Dim> *filters::PFilter<16>::add(Point<Dim> *)'
+                 with
+                 [
+                     Dim=16
+                 ]
+                 main.cpp(175) : see reference to class template instantiation 'filters::PFilter<Dim>' being compiled
+                 with
+                 [
+                     Dim=16
+                 ]
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\pfilter.h(62): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\pfilter.h(55) : while compiling class template member function 'Point<Dim> *filters::PFilter<16>::find(Point<Dim> *)'
+                 with
+                 [
+                     Dim=16
+                 ]
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\node.h(89): warning C4620: no postfix form of 'operator ++' found for type 'HashGraph<Dim>::next_iterator', using prefix form
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\HashGraph.h(35) : see declaration of 'HashGraph<Dim>::next_iterator'
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\node.h(42) : while compiling class template member function 'void Node<Dim>::learn(Point<16> *)'
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\layer.h(65) : see reference to function template instantiation 'void Node<Dim>::learn(Point<16> *)' being compiled
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\layer.h(48) : see reference to class template instantiation 'Node<Dim>' being compiled
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\layer.h(41) : while compiling class template member function 'Layer<FilterTy,Dim,RField>::Layer(Point<1024> *,FilterTy *)'
+                 with
+                 [
+                     FilterTy=filters::PFilter<16>,
+                     Dim=1024,
+                     RField=16
+                 ]
+                 main.cpp(177) : see reference to function template instantiation 'Layer<FilterTy,Dim,RField>::Layer(Point<1024> *,FilterTy *)' being compiled
+                 with
+                 [
+                     FilterTy=filters::PFilter<16>,
+                     Dim=1024,
+                     RField=16
+                 ]
+                 main.cpp(177) : see reference to class template instantiation 'Layer<FilterTy,Dim,RField>' being compiled
+                 with
+                 [
+                     FilterTy=filters::PFilter<16>,
+                     Dim=1024,
+                     RField=16
+                 ]
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\priorityqueue.h(196): warning C4172: returning address of local variable or temporary
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\priorityqueue.h(189) : while compiling class template member function 'Edge<Dim> &PriorityQueue<_Kty,_Ty,_Pr>::peek(void)'
+                 with
+                 [
+                     Dim=16,
+                     _Kty=Edge<16> *,
+                     _Ty=Edge<16> *,
+                     _Pr=Edge<16>::__normal_compare
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\node.h(100) : see reference to function template instantiation 'Edge<Dim> &PriorityQueue<_Kty,_Ty,_Pr>::peek(void)' being compiled
+                 with
+                 [
+                     Dim=16,
+                     _Kty=Edge<16> *,
+                     _Ty=Edge<16> *,
+                     _Pr=Edge<16>::__normal_compare
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\node.h(42) : while compiling class template member function 'void Node<Dim>::learn(Point<16> *)'
+                 with
+                 [
+                     Dim=16
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\layer.h(65) : see reference to function template instantiation 'void Node<Dim>::learn(Point<16> *)' being compiled
+                 with
+                 [
+                     Dim=16
+                 ]
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(53): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(52) : while compiling class template member function 'int DSets<T>::__find(int)'
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(45) : see reference to function template instantiation 'int DSets<T>::__find(int)' being compiled
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(42) : while compiling class template member function 'int DSets<T>::find(T)'
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(66) : see reference to function template instantiation 'int DSets<T>::find(T)' being compiled
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\dsets.h(30) : while compiling class template member function 'void DSets<T>::add(T)'
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+                 c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\node.h(66) : see reference to function template instantiation 'void DSets<T>::add(T)' being compiled
+                 with
+                 [
+                     T=Point<16> *
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\Release\thermo.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\Release\thermo.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\Release\thermo.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+     1>c:\users\sam\documents\visual studio 2012\projects\thermo\thermo\sparserep.h(84): warning C4715: 'SparseRep<int,16>::get' : not all control paths return a value
+         Finished generating code
+         thermo.vcxproj -> C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\Release\thermo.exe
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2012\Projects\thermo\thermo\thermo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.33
